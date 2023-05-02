@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="989e1d6a-c16d-4c8a-8c5c-75faed3f26a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../2_mounth/lesson_2/DZ" beforeDir="false" afterPath="$PROJECT_DIR$/../2_mounth/lesson_2/DZ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_mounth/lesson_3/DZ" beforeDir="false" afterPath="$PROJECT_DIR$/../2_mounth/lesson_3/DZ" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_mounth/lesson_4" beforeDir="false" afterPath="$PROJECT_DIR$/../2_mounth/lesson_4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2_mounth/lesson_5" beforeDir="false" afterPath="$PROJECT_DIR$/../2_mounth/lesson_5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tmp/4_mounth/1_lesson/cw/first-react" beforeDir="false" afterPath="$PROJECT_DIR$/../tmp/4_mounth/1_lesson/cw/first-react" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tmp/4_mounth/1_lesson/hw/first-react" beforeDir="false" afterPath="$PROJECT_DIR$/../tmp/4_mounth/1_lesson/hw/first-react" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tmp/4_mounth/2_lesson/hw/todolist" beforeDir="false" afterPath="$PROJECT_DIR$/../tmp/4_mounth/2_lesson/hw/todolist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tmp/4_mounth/hw - Copy/todolist" beforeDir="false" afterPath="$PROJECT_DIR$/../tmp/4_mounth/hw - Copy/todolist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Geektech/month4_hw",
+    "last_opened_file_path": "C:/Geektech/month4_hw/hw_4/todolist",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682769658594</updated>
-      <workItem from="1682769662384" duration="1062000" />
+      <workItem from="1682769662384" duration="1816000" />
+      <workItem from="1682777738170" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="hw_4">
       <created>1682769957799</created>

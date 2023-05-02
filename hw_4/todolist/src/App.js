@@ -81,7 +81,16 @@ function App() {
 
     const handleSearch = (event) => {
         setSearch(event.target.value)
+        todoFilter(false)
     }
+
+    const handleClearAllTasks = () => {
+        setTasks([]);
+        localStorage.removeItem("tasks");
+    }
+    useEffect(() => {
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+    }, [tasks])
 
 
     const handleEdit = (editTask) => {
@@ -109,7 +118,8 @@ function App() {
 
     } else {
         let newTodo = tasks.filter(task => task.completed === completed)
-    setFiltered(newTodo)
+        // setFiltered(newTodo)
+        setFiltered(newTodo.filter(task => task.title.toLowerCase().includes(search.toLowerCase())))
 
         }
     }
@@ -126,8 +136,10 @@ function App() {
                         <button  className={classes.button} onClick={ () => todoFilter ('all')}>All tasks</button>
                         <button  className={classes.button} onClick={ () => todoFilter (false)}>Open tasks</button>
                         <button  className={classes.button} onClick={ () => todoFilter (true)}>Done task</button>
+                        <button className={classes.button} onClick={handleClearAllTasks}>Clear all tasks</button>
 
                     </div>
+
                     {filtered.map(task =>
                         <TodoCard
                             handleDone={handleDone}
@@ -140,6 +152,7 @@ function App() {
                             key={task.id}
                             task={task} />)}
                 </div>
+
             </Container>
         </>
     );
